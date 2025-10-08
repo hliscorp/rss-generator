@@ -1,9 +1,12 @@
 {
-    "name": "hlis/rss",
-	"description" : "Very light weight PHP API for RSS feed generation covering official version 2.0 specifications",
-	"type" : "library",
+    "name": "lucinda/rss",
+    "description": "Very light weight PHP API for RSS feed generation covering official version 2.0 specifications",
+    "type": "library",
     "homepage": "https://github.com/aherne/rss-generator",
-    "keywords": ["rss", "feed"],
+    "keywords": [
+        "rss",
+        "feed"
+    ],
     "license": "MIT",
     "authors": [
         {
@@ -12,8 +15,8 @@
         }
     ],
     "autoload": {
-    	"psr-4": {
-        	"Lucinda\\RSS\\": "src/"
-    	}
+        "psr-4": {
+            "Lucinda\\RSS\\": "src/"
+        }
     }
 }
