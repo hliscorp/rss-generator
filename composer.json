@@ -1,26 +1,35 @@
 {
-    "name": "hlis/rss",
-	"description" : "Very light weight PHP API for RSS feed generation covering official version 2.0 specifications",
-	"type" : "library",
+    "name": "lucinda/rss",
+    "description": "Very light weight PHP API for RSS feed generation covering official version 2.0 specifications",
+    "type": "library",
     "homepage": "https://github.com/aherne/rss-generator",
-    "keywords": ["rss", "feed"],
+    "keywords": [
+        "rss",
+        "feed"
+    ],
     "license": "MIT",
     "authors": [
         {
             "name": "Lucian Gabriel Popescu",
             "email": "lucian.gabriel.popescu@gmail.com"
         }
-    ],    
+    ],
     "require-dev": {
-    	"hlis/unit-testing": "^1.0"
+        "lucinda/unit-testing": "^1.0"
     },
     "require": {
         "php": "^7.1|^8.0"
     },
     "autoload": {
-    	"psr-4": {
-        	"Lucinda\\RSS\\": "src/",
-                "Test\\Lucinda\\RSS\\": "tests/"
-    	}
-    }
+        "psr-4": {
+            "Lucinda\\RSS\\": "src/",
+            "Test\\Lucinda\\RSS\\": "tests/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/hliscorp/unit-testing"
+        }
+    ]
 }
